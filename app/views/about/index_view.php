@@ -149,13 +149,13 @@
 
 					<?php
                     foreach ($images as $key => $image) {
-                        if ($key == 1) {
+                        if ($key == 0) {
                             ?>
 					<!-- desktop -->
 					<img src="<?=IMG_PATH . $m->photo?>"
 						alt="NOOR місце твоєї краси" class="hideTablet hideMobile wow fadeIn">
 					<?php
-                        } elseif ($key == 2) {
+                        } elseif ($key == 1) {
                             ?>
 					<!-- tablet -->
 					<img src="<?=IMG_PATH . $m->photo?>"
